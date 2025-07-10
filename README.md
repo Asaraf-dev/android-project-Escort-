@@ -41,7 +41,7 @@ Speeding among young drivers remains a critical issue in road safety. According 
 
 Screenshots:
 <h3>Login </h3>
-<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Login_page.jpg" alt="Login" width="50"/>
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Login_page.jpg" alt="Login" width="100"/>
 
 ![Register](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Register_page.jpg)
 
