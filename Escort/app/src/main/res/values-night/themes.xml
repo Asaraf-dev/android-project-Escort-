@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Escort" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/Voilet</item>
+        <!-- Variant for darker shade -->
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="buttonIcon">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706938417611",
+    "project_id": "speed-escort",
+    "storage_bucket": "speed-escort.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706938417611:android:bebb58b12095caf788064e",
+        "android_client_info": {
+          "package_name": "com.example.escort"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe2EhI5oC0z41gfvNBeLhANbLZYJhmSXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

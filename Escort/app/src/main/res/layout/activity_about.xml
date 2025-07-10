@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/secondary_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/header">
+        <ImageView
+            android:id="@+id/backabout"
+            android:layout_width="40dp"
+            android:layout_height="41dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="-10dp"
+            android:clickable="true"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/primary_color"
+            android:textSize="30sp"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- App Title -->
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/primary_color"
+                android:text="REAL TIME VEHICLE SPEED MONITORING AND PARENTAL ALERTS FOR SAFE DRIVE"
+                android:textSize="20sp"
+                android:lineSpacingExtra="10dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+
+
+            <TextView
+                android:id="@+id/appDefinition01"
+                android:textColor="@color/primary_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="APPLICATION DEFINITION :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <!-- Application Definition -->
+            <TextView
+                android:id="@+id/appDefinition02"
+                android:textColor="@color/primary_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-50dp"
+                android:text="\n\nThis Application aims to helps parents monitor and guide their children's driving behavior in real time. By leveraging GPS and speed-tracking technology, the application ensures safety by sending alerts and recording relevant data when predefined speed limits are exceeded."
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+            <!-- Reason to Use -->
+            <TextView
+                android:id="@+id/reasonToUse01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/primary_color"
+                android:text="REASON TO USE or APP PURPOSE :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/reasonToUse02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/primary_color"
+                android:text="\n\nThis App designed to monitor and enforce safe driving practices through a mobile application can serve as an effective tool for promoting responsible behavior, particularly among parents or guardians concerned about their children's driving habits. By automatically detecting when a bike exceeds a predefined speed limit (eg, 80 km/hr), the app can send real time alerts to a designated phone number, ensuring immediate awareness. Additionally, storing key data such as speed, location, and time will provide valuable insights for later review, allowing parents to track driving behavior and make informed decisions regarding their child's safety. This system fosters proactive monitoring and can contribute to safer road use by reinforcing the importance of obeying speed limits and driving responsibly."
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+            <!-- App Features -->
+            <TextView
+                android:id="@+id/appFeatures01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/primary_color"
+                android:text="APP'S FEATURES:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/appFeatures02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/primary_color"
+                android:text="\n\n1. Speed Monitoring: Continuously monitors the vehicle's speed using GPS data\n\n2. Real-time Alerts: Sends an Email notification to a predefined mail i'd if the speed exceeds 80 km/h.\n\n3. Data Logging: Stores details such as speed, location, and time of the incident in a local database for review.\n\n4. User-Friendly interface: Simple and intuitive UI for setup and configuration of speed thresholds, emergency contacts, and data access.\n\n5. Customizable Thresholds: Allows users to define speed limits based on individual requirements.\n\n6. Privacy Protection: Ensures that all recorded data is securely stored and accessible only by authorized users."
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+            <!-- Potential Benefits -->
+            <TextView
+                android:id="@+id/potentialBenefits01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/primary_color"
+                android:text="POTENTIAL BENEFITS :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/potentialBenefits02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/primary_color"
+                android:text="\n\n1. Enhanced safety for young drivers.\n\n2. Real-time feedback for parents to guide their children's driving habits.\n\n3. Long-term improvement in responsible driving behavior."
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+            <!-- Developer Details -->
+            <TextView
+                android:id="@+id/appDevelopedBy01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/primary_color"
+                android:text="APP DEVELOPED BY:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/appDevelopedBy02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/primary_color"
+                android:text="\n\n> MOHAMED AL AFSAL A\n> NUMAAN MOHAMED K.A\n> DIWAN MYDEEN A\n> MOHAMMED ASARAF J"
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/undertheGuidance01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_color"
+                android:text="Under the Guidance of"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/undertheGuidance02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-60dp"
+                android:textColor="@color/primary_color"
+                android:text="\n\nS.B.S.YOUNUS , M.Sc.M.Phil.,NET.,\nAssistant Professor,\nDepartment of Information Technology,\nSadakathullah Appa College."
+                android:textSize="16sp"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

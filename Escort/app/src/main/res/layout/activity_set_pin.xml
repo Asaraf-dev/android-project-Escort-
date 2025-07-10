@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetPin"
+    android:background="@color/primary_color">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pinbg1"
+        android:layout_marginTop="-600dp"
+        android:rotation="90"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="350dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SET PIN"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textAlignment="center"
+                style="bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:textColorHint="@color/black">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:hint="ENTER PIN"
+                    android:textColor="@color/secondary_color"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/resultview"
+                android:text=""
+                android:textColor="@color/Red"
+                android:textSize="14sp"/>
+               <Button
+                   android:layout_width="100dp"
+                   android:layout_height="wrap_content"
+                   android:text="SET"
+                   android:id="@+id/setbtn"
+                   android:textSize="20sp"
+                   android:textColor="@color/primary_color"
+                   android:backgroundTint="@color/secondary_color"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20dp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

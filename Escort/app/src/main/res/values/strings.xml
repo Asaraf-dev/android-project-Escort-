@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Escort</string>\
+    <string name="appname">ESCORT</string>
+    <string name="mapapi">AIzaSyCz9fHw6obWxj6vKBeqptIqeUBsCEQaWPg</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_settings">Settings</string>
+</resources>

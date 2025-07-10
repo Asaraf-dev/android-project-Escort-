@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#ffff00</color>
+    <color name="bg">#0092FA</color>
+    <color name="blue">#0000ff</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="deep_burgundy">#6b2926</color>
+    <color name="Rusty_Red">#8c3b33</color>
+    <color name="Blue01">#272757</color>
+    <color name="Blue02">#8686ac</color>
+    <color name="Lust">#e62020</color>
+    <color name="Red">#ff0000</color>
+    <color name="Red_Munsell">#f2003c</color>
+    <color name="lava">#cf1020</color>
+    <color name="Blue03">#505081</color>
+    <color name="Mossy_hollow01">#636b2f</color>
+    <color name="Mossy_hollow02">#bac095</color>
+    <color name="Mossy_hollow03">#d4de95</color>
+    <color name="Mossy_hollow04">#3d4127</color>
+    <color name="skyblue01">#82C8E5</color>
+    <color name="Orange">#FFA500</color>
+    <color name="Navy_Blue">#000080</color>
+    <color name="azureblue">#007FFF</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="trueblue">#2D68C4</color>
+    <color name="Maroon">#800000</color>
+    <color name="Qatar">#990F4B</color>
+    <color name="Voilet">#381E42</color>
+    <color name="Gold">#FCE875</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="DeepBlue">#000052</color>
+    <color name="green">#3BB143</color>
+    <color name="dim_White1">#d2d2d2</color>
+   <color name="primary_color">@color/white</color>              ///text
+    <color name="secondary_color">@color/DeepBlue</color>        ///background
+    <color name="titlecard">@color/dim_White1</color>                ///titlecard
+    <color name="titlecardtext">@color/black</color>             ///titlecardtext
+    <color name="menubar">@color/dim_White1</color>                ///menubar
+    <color name="menutext">@color/Voilet</color>                  ///menutext
+</resources>
