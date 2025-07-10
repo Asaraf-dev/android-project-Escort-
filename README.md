@@ -71,12 +71,12 @@ Speeding among young drivers remains a critical issue in road safety. According 
 
 1. Clone the respository(download the file "Escort")
 2. Open the Project File(Escort) in Android studio
-    # Open Android Studio
-    # Click on "Open existing project"
+        Open Android Studio
+        Click on "Open existing project"
 3. Let Gradle Sync finish or Click "Sync"
 4. Run the app
-       # select a divice/emulator
-       # click the 'Run'
+        select a divice/emulator
+        click the 'Run'
 
 <h1>Requirement</h1>
 
