@@ -43,15 +43,15 @@ Screenshots:
 
 ![Loging](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Login_page.jpg)
 
-![Register]()
+![Register](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Register_page.jpg)
 
-![Home]()
+![Home](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Home_page.jpg)
 
-![Map]()
+![Map](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Map_page.jpg)
 
-![Setting](assets/Setting.jpg)
+![Setting](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Settings_page.jpg)
 
-![Activity History](assets/Activity History.jpg)
+![Activity History](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Activity%20History.jpg)
 
 
 
