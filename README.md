@@ -40,18 +40,32 @@ PROBLEM STATEMENT
 Speeding among young drivers remains a critical issue in road safety. According to traffic safety statistics, young drivers are more likely to engage in high-risk behaviors, including speeding, due to their inexperience and a lack of awareness about the dangers of excessive speed. Traditional driving education, while helpful, often fails to address this issue comprehensively. Although modern vehicles come equipped with speedometers and other monitoring systems, there is no real-time, automated mechanism to alert parents if their child is exceeding safe driving limits. 
 
 Screenshots:
+<center>
+    
 <h3>Login </h3>
+    
 <img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Login_page.jpg" alt="Login" width="250"/>
+    
+<h3>Register </h3>
 
-![Register](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Register_page.jpg)
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Register_page.jpg" alt="Register" width="250"/>
 
-![Home](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Home_page.jpg)
+<h3>Home </h3>
 
-![Map](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Map_page.jpg)
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Home_page.jpg" alt="Home" width="250"/>
 
-![Setting](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Settings_page.jpg)
+<h3>Map </h3>
 
-![Activity History](https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Activity%20History.jpg)
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Map_page.jpg"  alt="Map" width="250"/>
+
+<h3>Setting</h3>
+
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Settings_page.jpg"  alt="Setting" width="250"/>
+
+<h3>Activity History </h3>
+
+<img src="https://github.com/Asaraf-dev/android-project-Escort-/blob/main/assets/Activity%20History.jpg"  alt="Activity History" width="250"/>
+</center>
 
 
 
