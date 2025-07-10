@@ -39,6 +39,22 @@ PROBLEM STATEMENT
 
 Speeding among young drivers remains a critical issue in road safety. According to traffic safety statistics, young drivers are more likely to engage in high-risk behaviors, including speeding, due to their inexperience and a lack of awareness about the dangers of excessive speed. Traditional driving education, while helpful, often fails to address this issue comprehensively. Although modern vehicles come equipped with speedometers and other monitoring systems, there is no real-time, automated mechanism to alert parents if their child is exceeding safe driving limits. 
 
+Screenshots:
+
+![Loging]()
+
+![Register]()
+
+![Home]()
+
+![Map]()
+
+![Setting]()
+
+![Activity History]()
+
+
+
 
 
 
