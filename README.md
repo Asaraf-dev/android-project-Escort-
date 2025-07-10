@@ -49,9 +49,9 @@ Screenshots:
 
 ![Map]()
 
-![Setting]()
+![Setting](assets/Setting.jpg)
 
-![Activity History]()
+![Activity History](assets/Activity History.jpg)
 
 
 
