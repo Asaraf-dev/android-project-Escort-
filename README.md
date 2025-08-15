@@ -1,7 +1,7 @@
 # android-project-Escort-
 
 
-The "Real Time Speed Monitoring and Parental Alert" application is an Android-based solution developed using Java in Android Studio. This app is designed to ensure safe driving practices by continuously monitoring the real-time speed of a vehicle using the device's GPS. When the vehicle exceeds a predefined speed limit, the application automatically triggers an alert system that notifies the parent or guardian via email. This system is particularly useful for parents who want to ensure their teenagers are driving responsibly, enhancing both road safety and parental peace of mind.
+The "Real Time Speed Monitoring and Parental Alert" application is an Android-based solution developed using Java in Android Studio. This app is designed to ensure safe driving practices by continuously monitoring the real-time speed of a vehicle using the device's GPS. When the vehicle exceeds a predefined speed limit, the application automatically triggers an alert system that notifies the parent or guardian via SMS. This system is particularly useful for parents who want to ensure their teenagers are driving responsibly, enhancing both road safety and parental peace of mind.
 
 <h1>SYSTEM IMPLEMENTATION</h1>
 
